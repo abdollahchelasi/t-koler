@@ -98,10 +98,10 @@ export default function Home() {
 
         <Container id='Services'>
           <Row>
-          <Col >
+          <Col sm={6}>
                         <Container className={styles.service}>
                           <Row>
-                            <Col sm={12}>
+                            <Col >
                               <img className={styles.imgg} src='https://aasco.ir/wp-content/uploads/2019/10/ac-install.jpg' />
                               <p className={styles.tkh}>نصب کولر اسپلیت</p>
                             </Col>
