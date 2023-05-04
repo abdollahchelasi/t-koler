@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>قشم اسپلیت - خدمات نصب و سرویس کولر</title>
         <meta name="description" content="قشم اسپلیت - نصب سریع و تخصصی انواع کولر گازی تخصص ما است خدمات نصب و سرویس کولر اسپلیت با امکانات کامل سر تا سر جزیره قشم" />
-        <meta name="keywords" content="قشم اسپلیت , نصب کولر گازی قشم , سرویس کولر گازی, اسپلیت قشم , سرویس کولر قشم , نصب کولر قشم , "></meta>
+        <meta name="keywords" content="قشم اسپلیت , نصب کولر گازی قشم , سرویس کولر گازی, اسپلیت قشم , سرویس کولر قشم , نصب کولر قشم ,"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="https://kardoon.ir/wp-content/uploads/2021/11/%DA%A9%D9%88%D9%84%D8%B1.png" />
       </Head>
@@ -82,12 +82,8 @@ export default function Home() {
               </Container>
             </Col>
 
-                      
-            <Col>
 
-              <Container>
-                <Row>
-                  <Container id='Services'>
+            <Container id='Services'>
                     <Row>
                       <Col sm={6}>
                         <Container className={styles.service}>
@@ -129,6 +125,12 @@ export default function Home() {
                     </Row>
 
                   </Container>
+                      
+            <Col>
+
+              <Container>
+                <Row>
+                  
 
 
 
