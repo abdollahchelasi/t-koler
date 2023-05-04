@@ -82,10 +82,9 @@ export default function Home() {
               </Container>
             </Col>
 
-
-            <Container id='Services'>
-                    <Row>
-                      <Col sm={6}>
+            
+                   
+                      <Col sm={6} id='Services'>
                         <Container className={styles.service}>
                           <Row>
                             <Col sm={12}>
@@ -122,9 +121,8 @@ export default function Home() {
                           </Row>
                         </Container>
                       </Col>
-                    </Row>
-
-                  </Container>
+                    
+            
                       
             <Col>
 
