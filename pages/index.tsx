@@ -84,7 +84,21 @@ export default function Home() {
 
             
                    
-                      <Col sm={6} id='Services'>
+                  
+                    
+            
+                      
+            
+
+
+
+
+          </Row>
+        </Container>
+
+        <Container id='Services'>
+          <Row>
+          <Col sm={6} >
                         <Container className={styles.service}>
                           <Row>
                             <Col sm={12}>
@@ -121,21 +135,15 @@ export default function Home() {
                           </Row>
                         </Container>
                       </Col>
-                    
-            
-                      
-            <Col>
-
-              <Container>
-                <Row>
-                  
+          </Row>
+        </Container>
 
 
+        <Container id='Call'>
+          <Row>
+             <Col>
 
-
-                  <Col>
-
-                    <Container fluid className={styles.tamas} id='Call'>
+                    <Container fluid className={styles.tamas} >
                       <Row>
                         <Col sm={12}>
                           <h3>تماس با ما</h3>
@@ -159,16 +167,7 @@ export default function Home() {
                       </Row>
                     </Container>
                   </Col>
-
-
-                </Row>
-              </Container>
-
-            </Col>
-
-
-
-
+          
           </Row>
         </Container>
       </main>
