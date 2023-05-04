@@ -98,7 +98,7 @@ export default function Home() {
 
         <Container id='Services'>
           <Row>
-          <Col sm={6} >
+          <Col >
                         <Container className={styles.service}>
                           <Row>
                             <Col sm={12}>
@@ -117,7 +117,7 @@ export default function Home() {
                       </Col>
 
 
-                      <Col sm={6}>
+                      <Col >
                         <Container className={styles.service}>
                           <Row>
                             <Col >
